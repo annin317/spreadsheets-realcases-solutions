@@ -15,11 +15,10 @@ My goal is to help others learn practical spreadsheet problem-solving while show
 
 # 🧠 Featured Case Studies
 ## **Case 1️⃣ — VLOOKUP Fix for External Data**
-
 ### **Overview**   
 This is a common headache: a VLOOKUP that breaks when pulling data from another spreadsheet. The issues here were simple but costly: the wrong column number and a lookup area that was too small!
 ### **❌ The Problem**  
 VLOOKUP was failing due to the wrong result column index and using a static, small cell range for the source data.
-### **💡 The Fix (Step-by-Step Thinking)**
+### **💡 Solution**
 Quickly diagnosed and corrected the column index. Upgraded the range selection to full columns (e.g., `$L:\$M$) to make the formula dynamic, stable, and "future-proof" against data changes.
-
+![Alt text](https://github.com/annin317/spreadsheets-realcases-solutions/blob/e6d3e02c1e50a60e487534f1fff491330ca1977e/Case%201%EF%B8%8F%20%E2%80%94%20VLOOKUP%20Fix%20for%20External%20Data%20Image.png)
